@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Project Alpha",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Initial planning and research phase.",
+    "status": "In Progress",
+    "contactInfo": "alpha@company.com",
+    "division": "Research"
+  },
+  {
+    "id": 2,
+    "title": "Marketing Campaign",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Preparing Q3 marketing materials.",
+    "status": "To-Do",
+    "contactInfo": "marketing@company.com",
+    "division": "Marketing"
+  },
+  {
+    "id": 3,
+    "title": "Client Onboarding",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Welcoming new enterprise client.",
+    "status": "Completed",
+    "contactInfo": "support@company.com",
+    "division": "Customer Success"
+  },
+  {
+    "id": 4,
+    "title": "Security Audit",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Annual security check for infrastructure.",
+    "status": "In Progress",
+    "contactInfo": "security@company.com",
+    "division": "IT"
+  },
+  {
+    "id": 5,
+    "title": "UI Redesign",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Improving user interface for better UX.",
+    "status": "To-Do",
+    "contactInfo": "design@company.com",
+    "division": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Backend Migration",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Migrating to microservices architecture.",
+    "status": "In Progress",
+    "contactInfo": "devops@company.com",
+    "division": "Engineering"
+  },
+  {
+    "id": 7,
+    "title": "Product Launch",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Launching new SaaS platform.",
+    "status": "Completed",
+    "contactInfo": "launch@company.com",
+    "division": "Product"
+  },
+  {
+    "id": 8,
+    "title": "Legal Review",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Review of new partner contracts.",
+    "status": "To-Do",
+    "contactInfo": "legal@company.com",
+    "division": "Legal"
+  },
+  {
+    "id": 9,
+    "title": "Team Training",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Quarterly upskilling session.",
+    "status": "In Progress",
+    "contactInfo": "hr@company.com",
+    "division": "Human Resources"
+  },
+  {
+    "id": 10,
+    "title": "Customer Feedback Analysis",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Analyzing feedback from survey.",
+    "status": "Completed",
+    "contactInfo": "feedback@company.com",
+    "division": "Support"
+  },
+  {
+    "id": 11,
+    "title": "Server Maintenance",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Routine server updates and monitoring.",
+    "status": "In Progress",
+    "contactInfo": "infra@company.com",
+    "division": "Infrastructure"
+  },
+  {
+    "id": 12,
+    "title": "Recruitment Drive",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Hiring for engineering roles.",
+    "status": "To-Do",
+    "contactInfo": "talent@company.com",
+    "division": "HR"
+  },
+  {
+    "id": 13,
+    "title": "Budget Planning",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Planning budget for next fiscal year.",
+    "status": "In Progress",
+    "contactInfo": "finance@company.com",
+    "division": "Finance"
+  },
+  {
+    "id": 14,
+    "title": "Vendor Evaluation",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Assessing new software vendors.",
+    "status": "To-Do",
+    "contactInfo": "procurement@company.com",
+    "division": "Procurement"
+  },
+  {
+    "id": 15,
+    "title": "Social Media Strategy",
+    "image": "https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=1508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Revamping our digital presence.",
+    "status": "Completed",
+    "contactInfo": "social@company.com",
+    "division": "Marketing"
+  }
+]
