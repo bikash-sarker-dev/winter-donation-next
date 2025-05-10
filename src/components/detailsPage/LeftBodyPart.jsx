@@ -1,30 +1,20 @@
-const LeftBodyPart = () => {
+const LeftBodyPart = ({ campDetails }) => {
+  const { image, description, title, status, contactInfo } = campDetails ?? {};
+
   return (
     <div>
-      <h3>Search</h3>
-      <form action="">
-        <label className="input">
-          <svg
-            className="h-[1em] opacity-50"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <g
-              strokeLinejoin="round"
-              strokeLinecap="round"
-              strokeWidth="2.5"
-              fill="none"
-              stroke="currentColor"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </g>
-          </svg>
-          <input type="search" className="grow" placeholder="Search" />
-          <kbd className="kbd kbd-sm">⌘</kbd>
-          <kbd className="kbd kbd-sm">K</kbd>
-        </label>
-      </form>
+      <div className="card bg-base-100  shadow-sm">
+        <figure>
+          <img src={image} alt="Shoes" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">{title}</h2>
+          <p>{description}</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

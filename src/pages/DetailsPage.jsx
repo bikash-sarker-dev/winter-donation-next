@@ -26,9 +26,9 @@ const DetailsPage = () => {
   return (
     <div>
       <div className="container">
-        <div className="grid grid-cols-12 mt-10">
+        <div className="grid grid-cols-12 mt-10 gap-8">
           <div className="col-span-9">
-            <LeftBodyPart />
+            <LeftBodyPart campDetails={campDetails} />
           </div>
           <div className="col-span-3">
             <RightSidebar />

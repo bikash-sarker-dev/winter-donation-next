@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes as Routers } from "react-router";
 import RootLayout from "../layouts/RootLayout";
 import DeshboardPage from "../pages/DeshboardPage";
@@ -9,6 +8,7 @@ import LoginPage from "../pages/LoginPage";
 import ProfilePage from "../pages/ProfilePage";
 import RegisterPage from "../pages/RegisterPage";
 import ResetPasswordPage from "../pages/ResetPasswordPage";
+import PrivateRoute from "./PrivateRoute";
 
 const Routes = () => {
   return (
@@ -17,11 +17,25 @@ const Routes = () => {
         <Route path="/" element={<RootLayout />}>
           <Route index element={<HomePage />} />
           <Route path="/donation-campain" element={<DonationCampainsPage />} />
-          <Route path="/deshbord" element={<DeshboardPage />} />
+          <Route
+            path="/deshbord"
+            element={
+              <PrivateRoute>
+                <DeshboardPage />
+              </PrivateRoute>
+            }
+          />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
+          <Route
+            path="/profile"
+            element={
+              <PrivateRoute>
+                <ProfilePage />
+              </PrivateRoute>
+            }
+          />
           <Route path="/details/:id" element={<DetailsPage />} />
         </Route>
       </Routers>
