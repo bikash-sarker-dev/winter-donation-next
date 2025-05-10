@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router";
+import LeftBodyPart from "../components/detailsPage/LeftBodyPart";
+import RightSidebar from "../components/detailsPage/RightSidebar";
 
 const DetailsPage = () => {
   const { id } = useParams();
@@ -21,7 +23,20 @@ const DetailsPage = () => {
     getCamp();
   }, []);
   console.log(campDetails);
-  return <div>DetailsPage</div>;
+  return (
+    <div>
+      <div className="container">
+        <div className="grid grid-cols-12 mt-10">
+          <div className="col-span-9">
+            <LeftBodyPart />
+          </div>
+          <div className="col-span-3">
+            <RightSidebar />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default DetailsPage;
