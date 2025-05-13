@@ -1,7 +1,7 @@
 const RightSidebar = () => {
   return (
     <div className="bg-gray-100 h-screen p-4">
-      <h3>Search</h3>
+      <h3 className="font-bold text-3xl py-3">Search option</h3>
       <form action="">
         <label className="input">
           <svg
