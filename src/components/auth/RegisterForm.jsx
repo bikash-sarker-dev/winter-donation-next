@@ -1,6 +1,5 @@
 // import { getAuth, sendEmailVerification } from "firebase/auth";
 import { getAuth, updateProfile } from "firebase/auth";
-import React from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router";
 import Auth from "../../hooks/useAuth";
@@ -46,8 +45,11 @@ const RegisterForm = () => {
     <div className="bg-[#f5f5f5] py-10 px-10 rounded-2xl">
       <form onSubmit={handleSubmit(onSubmits)}>
         <div className="">
-          <label className="block outfit text-[16px] font-medium" htmlFor="">
-            User Name
+          <label
+            className="block outfit text-[16px] font-medium"
+            htmlFor="idtext"
+          >
+            User full Name
           </label>
           <input
             className="outfit text-[16px] font-normal border pl-[10px] w-full h-[40px] mt-1 rounded-lg"
