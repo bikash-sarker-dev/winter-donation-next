@@ -101,7 +101,7 @@ const RegisterForm = () => {
           You have a account .{" "}
           <Link
             to="/login"
-            className="jost text-[18px] font-bold text-[#1a685b]"
+            className=" text-[19px] font-bold underline f text-[#1a685b]"
           >
             Login
           </Link>{" "}
